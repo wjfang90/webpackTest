@@ -1,0 +1,21 @@
+li{
+    list-style: none;
+  }
+
+  .img{
+      width: 120px;
+      height: 100px;
+      background:url('../images/生小孩.jpg');
+      background-size: cover;
+  }
+
+  @font-face {
+    font-family: Zawgyi-One;
+    src: url("Zawgyi-One.eot") format('embedded-opentype');
+    src: url("Zawgyi-One.woff") format('woff'),
+        url("Zawgyi-One.ttf") format('truetype'),
+        url("Zawgyi-One.svg") format('svg');
+}
+  .fontfile {
+    font-family: Zawgyi-One,arial,"宋体";    
+}
